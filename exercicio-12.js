@@ -24,4 +24,4 @@ const calculaFatorial = (numero) => {
 
 }
 
-console.log(calculaFatorial(5));
+console.log(calculaFatorial(-5));
