@@ -1,8 +1,8 @@
 /**
  * AUTOR:GABRIEL GAMELEIRA DOS SANTOS 
  * DATA: 10/05/2020
- * HORA: 15:12
- * FINALIDADE DO PROGRAMA: AVALIA O MAIOR E MENOR NUMERO DE UM VETOR
+ * HORA: 17:56
+ * FINALIDADE DO PROGRAMA: AVALIA O CONCEITO DA NOTA EM UM VETOR DE NOTAS
  */
 
 const distribuirNota = (notas = []) => {
@@ -26,7 +26,9 @@ const distribuirNota = (notas = []) => {
             console.log("A");
 
         }
+
     });
+
 }
 
 const notas = new Array(3, 6, 7, 10);
