@@ -2,32 +2,22 @@
  * AUTOR:GABRIEL GAMELEIRA DOS SANTOS 
  * DATA: 10/05/2020
  * HORA: 13:29
- * FINALIDADE DO PROGRAMA: VERIFICA SE UM DIA É ÚTIL 
+ * FINALIDADE DO PROGRAMA: VERIFICA SE UM DIA É ÚTIL, FIM DE SEMANA OU INVÁLIDO
  */
 
 const verificaDiaSemana = (dia) => {
 
     switch (dia) {
-        case 1:
-            console.log("SEGUNDA");
-            break;
         case 2:
-            console.log("TERÇA");
-            break;
         case 3:
-            console.log("QUARTA");
-            break;
         case 4:
-            console.log("QUINTA");
-            break;
         case 5:
-            console.log("SEXTA");
-            break;
         case 6:
-            console.log("SÁBADO");
+            console.log("DIA ÚTIL");
             break;
+        case 1:
         case 7:
-            console.log("DOMINGO");
+            console.log("FIM DE SEMANA");
             break;
         default:
             console.log("DIA INVÁLIDO");
