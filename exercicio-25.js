@@ -1,0 +1,12 @@
+/**
+ * AUTOR:GABRIEL GAMELEIRA DOS SANTOS 
+ * DATA: 10/05/2020
+ * HORA: 14:40
+ * FINALIDADE DO PROGRAMA: IMPRIME OS NUMEROS DO UM AO CINQUENTA
+ */
+
+for (let i = 1; i <= 50; i++) {
+
+    console.log(i);
+
+}
